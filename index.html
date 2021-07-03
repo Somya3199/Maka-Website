@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <title>Maka &mdash; Local Express Delivery</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" /> 
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+    <link rel="stylesheet" href="css/aos.css">
+    
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+    
+    <div class="site-wrap" id="home-section">
+
+      <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+          <div class="site-mobile-menu-close mt-3">
+            <span class="icon-close2 js-menu-toggle"></span>
+          </div>
+        </div>
+        <div class="site-mobile-menu-body"></div>
+      </div>
+
+
+
+      <header class="site-navbar site-navbar-target" role="banner">
+
+        <div class="container">
+          <div class="row align-items-center position-relative">
+
+            <div class="col-3">
+              <div class="site-logo">
+                <img src="images/maka_logo.png" alt="Image" class="img-fluid rounded-circle">
+              </div>
+            </div>
+
+            <div class="col-9 text-right">
+              
+              <span class="d-inline-block d-lg-none"><a href="#" class=" site-menu-toggle js-menu-toggle py-5 "><span class="icon-menu h3 text-black"></span></a></span>
+
+              <nav class="site-navigation text-right ml-auto" role="navigation">
+                <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
+                  <li class="active"><a href="index.html" class="nav-link"><strong>Home</strong></a></li>
+                  <li><a href="#about" class="nav-link"><strong>About</strong></a></li>
+                  <li><a href="#team" class="nav-link"><strong>Team</strong></a></li>
+                  <li><a href="#services" class="nav-link"><strong>Services</strong></a></li>
+                  <li><a href="#joinus" class="nav-link"><strong>Join Us</strong></a></li>
+                  <li><a href="contact.html" class="nav-link"><strong>Contact</strong></a></li>
+                  <li><a href="signup.html" class="nav-link"><strong>Signup</strong></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+      </header>
+      
+
+      <div class="hero" style="background-image: url('images/bg4.jpg');">
+        
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-10">
+
+              <div class="row mb-5">
+                <div class="col-lg-12 intro text-center">
+                  <h1><strong>Parcel Delivery</strong> is now within your finger tips.</h1>
+                  
+                  <br><h1 class="text-center"><Strong><i>Online Booking</i></Strong></h1>
+                </div>
+              </div>
+              
+              <form class="trip-form" action="book.php" method="post">
+                
+                <div class="row align-items-center">
+                  
+                  
+                  <div class="mb-3 mb-md-0 col-md-3">
+                    <div class="form-control-wrap">
+                      <input type="text" id="cf-3" name="pick" placeholder="Pick up" class="form-control px-3" required="">
+                    </div>
+                  </div>
+
+                  <div class="mb-3 mb-md-0 col-md-3">
+                    <div class="form-control-wrap">
+                      <input type="text" id="cf-4" name="drop" placeholder="Drop off" class="form-control px-3" required="">
+                    </div>
+                  </div>
+
+                  <div class="mb-3 mb-md-0 col-md-3">
+                    <div class="form-control-wrap">
+                      <input type="text" id="cf-4" name="date" placeholder="Date" class="form-control datepicker px-3" required="">
+                      <span class="icon icon-date_range"></span>
+                    </div>
+                  </div>
+
+                  <div class="mb-3 mb-md-0 col-md-3">
+                    <select name="time" id="" class="custom-select form-control" required="">
+                       <option name="" value="">Time slot</option>
+                      <option value="06:00 AM - 07:00 AM">06:00 AM - 07:00 AM</option>
+                      <option value="07:00 AM - 08:00 AM">07:00 AM - 08:00 AM</option>
+                      <option value="08:00 AM - 09:00 AM">08:00 AM - 09:00 AM</option>
+                      <option value="09:00 AM - 10:00 AM">09:00 AM - 10:00 AM</option>
+                      <option value="10:00 AM - 11:00 AM">10:00 AM - 11:00 AM</option>
+                      <option value="11:00 AM - 12:00 AM">11:00 AM - 12:00 AM</option>
+                      <option value="12:00 AM - 01:00 PM">12:00 AM - 01:00 PM</option>
+                      <option value="01:00 PM - 02:00 PM">01:00 PM - 02:00 PM</option>
+                      <option value="02:00 PM - 03:00 PM">02:00 PM - 03:00 PM</option>
+                      <option value="03:00 PM - 04:00 PM">03:00 PM - 04:00 PM</option>
+                      <option value="04:00 PM - 05:00 PM">04:00 PM - 05:00 PM</option>
+                      <option value="05:00 PM - 06:00 PM">05:00 PM - 06:00 PM</option>
+                      <option value="06:00 PM - 07:00 PM">06:00 PM - 07:00 PM</option>
+                      <option value="07:00 PM - 08:00 PM">07:00 PM - 08:00 PM</option>
+                      <option value="08:00 PM - 09:00 PM">08:00 PM - 09:00 PM</option>
+                      <option value="09:00 PM - 10:00 PM">09:00 PM - 10:00 PM</option>
+                      <option value="10:00 PM - 11:00 PM">10:00 PM - 11:00 PM</option>
+                    </select>
+                  </div>
+                </div>
+                  <div class="row text-center">
+                    <div class="form-control-wrap col-md-3">
+                    <br> <input type="submit" value="Book Now" class="btn btn-primary btn-block py-3">
+                  </div>
+                </div>
+                
+              </form>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <section class="site-section" id="about">
+        <div class="container">
+          <br>
+          <div class="row">
+            <div class="col-lg-7 mr-auto">
+          <h2 class="section-heading"><strong>About Us</strong></h2>
+          <br><h4 class="mb-12">Maka is a local-express delivery company on two wheels, which provides delivery services throughout the city. 
+            In today's world everyone is busy with infinite number of works and no one has time to complete all their tasks. Here we comes. 
+            Maka provides you with easy and reliable delivery services with guaranteed product delivery from one place to another within the city.
+            We are just fingertip away to your work. Book a Slot in maka, our delivery person will collect and delivers your item within 2 hours.
+             <br><strong>Our main objective and motto</strong> is to move fast and provide best and reliable services.<br>
+            <strong>Aim of Maka</strong> is to offer best pricing and services to our clients and customers. We are here to make sure that your package is in safe hands.</h4>
+          </div>
+            <div class="col-lg-5 mb-5 mb-lg-0 order-lg-2">
+              <img src="images/expdelivery.jpg" alt="Image" class="img-fluid rounded" style="margin-top:100px">
+            </div>  
+        </div>
+      </div>
+      </section>
+      
+
+
+
+      <section class="site-section bg-light" id="team">
+        <div class="container">
+          <div class="row justify-content-center text-center mb-5 section-2-title">
+            <div class="col-md-6">
+              <h2 class="mb-5 section-heading"><strong>Company Head</strong></h2>
+            </div>
+          </div>
+          <div class="row align-items-center">
+  
+            <div class="col-lg-6 col-md-12 mb-5">
+              <div class="post-entry-1 h-100 person-1">
+                
+                  <img src="images/chairman.jpg" alt="Image"
+                   class="img-fluid">
+              
+                <div class="post-entry-1-contents">
+                  <span class="meta"><strong>Chairman</strong></span>
+                  <h2>T. Anuradha</h2>
+                  <p><strong>It gives me immense pleasure and sense of pride in stating that the Company continued its sustained leadership in the industry in an intense competitive market. The performance is reflective of the hard work and perseverance of dedicated employees working relentlessly for the company’s success. Please join me in congratulating the leadership of the Company for delivering a successful work-life.
+                  </strong></p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 mb-5">
+              <div class="post-entry-1 person-1">
+                
+                  <img src="images/Founder.jpg" alt="Image"
+                   class="img-fluid">
+              
+                <div class="post-entry-1-contents">
+                  <span class="meta"><strong>Founder - President</strong></span>
+                  <h2>T.S. Manognya</h2>
+                  <p><strong>Leading a company like Maka comes with great responsibility. For me, taking responsibility means continuously working to develop Maka’s capabilities. Now with online presence, the company will provide most efficient, reliable and fastest courier service in Hyderabad, with a fast and growing delivery network that ensures that the parcels are delivered on time, every time. </strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section class="site-section" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <h1 class="section-heading text-center"><strong>Services</strong></h1>
+              </div>
+          </div>
+          <br>
+          <br>
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="post-entry-1 h-100">
+                  <img src="images/services_1.jpg" alt="Image"
+                   class="img-fluid">
+                </a>
+                <div class="post-entry-1-contents">
+                  
+                  <h2>Easy Pick-up at your doorstep</h2>
+                  <p>With Online Booking facility, you just need to put your parcel request and delivery person will arrive at your doorstep for parcel pick-up.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="post-entry-1 h-100">
+                  <img src="images/services_2.jpg" alt="Image"
+                   class="img-fluid">
+                </a>
+                <div class="post-entry-1-contents">
+                  
+                  <h2>Best Delivery Network</h2>
+                  <p>We provide Very fast, Reliable and Efficient delivery network which ensures that the parcels are delivered on time.</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="post-entry-1 h-100">
+                  <img src="images/services_3.jpg" alt="Image"
+                   class="img-fluid">
+                </a>
+                <div class="post-entry-1-contents">
+                  
+                  <h2>Best Transportation Facility</h2>
+                  <p>We have been occupied with the best two-wheeler transportation service across the city with the professional drivers.</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="post-entry-1 h-100">
+                  <img src="images/services_4.png" alt="Image"
+                   class="img-fluid">
+                <div class="post-entry-1-contents">
+                  
+                  <h2>Efficient Management System</h2>
+                  <p>Our Courier services are withhold by an Integrated Management System that enables to ensure seamless and convenient company operations.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="post-entry-1 h-100">
+                  <img src="images/services_5.jpg" alt="Image"
+                   class="img-fluid">
+                <div class="post-entry-1-contents">
+                  
+                  <h2>Efficient Route Scaling</a></h2>
+                  <p>Route Scaling is a feature to route packages to the desired destination. Scalable routing provides stable and manageable routing policies.</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 mb-4">
+              <div class="post-entry-1 h-100">
+                  <img src="images/services_6.jpg" alt="Image"
+                   class="img-fluid">
+                <div class="post-entry-1-contents">
+                  
+                  <h2>Fast Delivery at the destination</a></h2>
+                  <p>Our Delivery motto is to provide delivery at the destination within two hours starting from the pick-up facility. On-time delivery is the key feature of the company.</p>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section>
+
+
+    
+    <section class="site-section bg-light" id="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <h1 class="section-heading text-center"><strong>Testimonials</strong></h1>    
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="testimonial-2">
+              <blockquote class="mb-4">
+                <p>"Using this app is a great comfort as it is easy to use and works appropriately with high accuracy and less pricing. Will surely rate it five stars.<br> First choice for transportation."</p>
+              </blockquote>
+              <div class="d-flex v-card align-items-center">
+                <div class="author-name">
+                  <span class="d-block text-center"><strong>Somya Jain</strong></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="testimonial-2">
+              <blockquote class="mb-4">
+                <p>"Its like a daily routine habit to use Maka for our orders delivery, ensuring our packings is in right hands to be dropped safely and on time. Its just a one click away to put our stuff of items on its right place."</p>
+              </blockquote>
+              <div class="d-flex v-card align-items-center">
+                <div class="author-name">
+                  <span class="d-block"><strong>Kaushik Jha</strong></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <div class="testimonial-2">
+              <blockquote class="mb-4">
+                <p>"Maka has made the working easy. Easy pickups and droppings , Hassel free working and much easy to use. It is a time saver to my daily tasks routine and provides reliable services."</p>
+              </blockquote>
+              <div class="d-flex v-card align-items-center">
+                <div class="author-name">
+                  <span class="d-block"><strong>Kirti Devi</strong></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="site-section bg-primary py-5" id="joinus">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-8 mb-4 mb-md-0">
+            <h2 class="mb-0 text-white">Want to Work with us? Then, what are you waiting for..</h2><br>
+            <h3 class="mb-0 opa-7">We are open to recruit employees who are willing to drive. <br> Register Here to Drive</h3>
+          </div>
+          <div class="col-lg-4 text-md-right">
+            <a href="https://forms.gle/8WAubdr2PQpAryrZ7" class="btn btn-primary btn-white">Register</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3">
+              <h2 class="footer-heading mb-4">About Us</h2>
+              <p>Please Support and Follow Us for getting latest Updates on below social media platform links. </p>
+              <ul class="list-unstyled social">
+                <li><a href="#"><span class="icon-facebook"></span></a></li>
+                <li><a href="#"><span class="icon-instagram"></span></a></li>
+                <li><a href="#"><span class="icon-twitter"></span></a></li>
+                <li><a href="#"><span class="icon-linkedin"></span></a></li>
+              </ul>
+            </div>
+            <div class="col-lg-8 ml-auto">
+              <div class="row">
+                <div class="col-lg-3">
+                  <h2 class="footer-heading mb-4">Quick Links</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="index.html">Online Booking</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#joinus">Join Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <h2 class="footer-heading mb-4">Resources</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="index.html">Online Booking</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <h2 class="footer-heading mb-4">Support</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="index.html">Online Booking</a></li>
+                    <li><a href="signup.html">Sign Up/Login</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#joinus">Join Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-3">
+                  <h2 class="footer-heading mb-4">Company</h2>
+                  <ul class="list-unstyled">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/scroll.js"></script>
+
+    <script src="js/main.js"></script>
+
+  </body>
+
+</html>
